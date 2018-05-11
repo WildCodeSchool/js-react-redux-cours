@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Header .title {
+  font-size: 1.5em;
+}
+
+.Header .logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.UserList {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.UserList li,
+.UserDetail h2 {
+  text-transform: capitalize;
+}
