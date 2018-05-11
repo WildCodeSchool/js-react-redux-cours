@@ -1,1 +1,1 @@
-# js-react-redux-cours
+### Cours React - Redux
