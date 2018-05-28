@@ -5,8 +5,8 @@ import ActiveUserReducer from './active-user';
 
 // combine all reducers 
 const allReducers = combineReducers({
-    users: UsersReducer,
-    activeUser: ActiveUserReducer
+  users: UsersReducer,
+  activeUser: ActiveUserReducer
 })
 
 export default allReducers;
